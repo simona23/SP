@@ -112,8 +112,10 @@
     padding: 20px;
     text-align: center;
 }
-
 #registriraj{
     margin-top: 15px;
     height: 30px;
+}
+#tabelaR{
+    margin: 0 auto;
 }
