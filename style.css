@@ -106,11 +106,13 @@
     text-align: right;
     font-style: italic;
 }
+
 #Register2{
     border: 3px solid gray;
     padding: 20px;
     text-align: center;
 }
+
 #registriraj{
     margin-top: 15px;
     height: 30px;
