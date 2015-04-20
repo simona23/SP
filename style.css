@@ -1,0 +1,117 @@
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    //display:inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+    display:block;
+    clear:both;
+    content:'';
+}
+
+.tab-links li {
+    margin:0px 5px;
+    float:right;
+    list-style:none;
+}
+
+.tab-links a {
+    padding:9px 15px;
+    display:inline-block;
+    border-radius:0px 0px 5px 5px;
+    background: #3B2440;
+    font-size:16px;
+    font-weight:600;
+    color:white;
+    transition:all linear 0.15s;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.tab-links a:hover {
+    background: #633D6B;
+    text-decoration:none;
+}
+
+.tab-links li.active a, .tab-links li.active a:hover {
+    background: #F2F2F2;
+    color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+    padding:15px;
+    border-radius:3px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20;
+}
+
+.tab-content h1 {
+    text-align: center;
+    font-size: 70;
+}
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
+}
+
+/* --- search opcije --- */
+
+.search-opt li {
+    list-style: square;
+}
+
+.search-opt a {
+    text-decoration: none;
+    color: black;
+}
+
+.opt {
+    text-align: center;
+    display:none;
+}
+
+.opt.active {
+    display:block;
+}
+
+.search-opt li.active {
+    background-color: #F2F2F2;
+}
+
+.opt {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#browsecateg {
+    margin-left: 15%;
+    text-align: left;
+}
+
+#namesearch input {
+    width: 70%;
+    height: 30;
+}
+
+::-webkit-input-placeholder {
+    text-align: right;
+    font-style: italic;
+}
+#Register2{
+    border: 3px solid gray;
+    padding: 20px;
+    text-align: center;
+}
+#registriraj{
+    margin-top: 15px;
+    height: 30px;
+}
